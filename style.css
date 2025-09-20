@@ -27,6 +27,15 @@ ul {
     padding-left: 0;       /* removes the extra space on the left */
 }
 
+.profile-pic {
+    width: 150px;       /* size */
+    height: 150px;      /* keeps it square */
+    border-radius: 50%; /* makes it circular */
+    display: block;
+    margin: 20px auto;  /* centers it */
+    object-fit: cover;  /* keeps proportions */
+}
+
 footer {
     background-color: #007bff;
     color: white;
